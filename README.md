@@ -66,3 +66,11 @@ Equivalent OpenUDID systems on Blackberry, other platforms, etc...
 ![image](http://appsfire.com/images/misc/openudid_seal_large.png)
 ![image](http://appsfire.com/images/misc/openudid_seal_medium.png)
 ![image](http://appsfire.com/images/misc/openudid_seal_small.png)
+
+#### Installation
+Swift Package Manager
+- iOS: Open Xcode, File->Swift Packages, search input **https://github.com/janlionly/OpenUDID.git**, and then select branch **master**.
+- Or add dependencies in your `Package.swift`:
+``` ruby
+.package(url: "https://github.com/janlionly/OpenUDID.git.git", .branch("master")),
+```
